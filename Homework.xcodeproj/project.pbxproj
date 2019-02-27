@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A02CD662224FE5000A3DB3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD652224FE5000A3DB3E /* AppDelegate.m */; };
+		4A02CD692224FE5000A3DB3E /* WWWallpaperListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD682224FE5000A3DB3E /* WWWallpaperListController.m */; };
+		4A02CD6E2224FE5400A3DB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A02CD6D2224FE5400A3DB3E /* Assets.xcassets */; };
+		4A02CD712224FE5400A3DB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A02CD6F2224FE5400A3DB3E /* LaunchScreen.storyboard */; };
+		4A02CD742224FE5400A3DB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD732224FE5400A3DB3E /* main.m */; };
+		4A02CD7D22251AE200A3DB3E /* WWWallpaperItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD7C22251AE200A3DB3E /* WWWallpaperItemModel.m */; };
+		4A02CD802225207700A3DB3E /* WWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD7F2225207700A3DB3E /* WWRequest.m */; };
+		4A02CD8A222533F500A3DB3E /* WWWallpaperCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD89222533F500A3DB3E /* WWWallpaperCollectionView.m */; };
+		4A02CD8D222539CD00A3DB3E /* WWVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD8C222539CD00A3DB3E /* WWVerticalFlowLayout.m */; };
+		4A02CD9022254E0300A3DB3E /* WWWallpaperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD8F22254E0300A3DB3E /* WWWallpaperCell.m */; };
+		4A02CD952225621F00A3DB3E /* UIView+WWHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD942225621F00A3DB3E /* UIView+WWHud.m */; };
+		4A02CD982225796500A3DB3E /* WWWallpaperDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD972225796500A3DB3E /* WWWallpaperDataService.m */; };
+		4A02CD9D2225857500A3DB3E /* WWWallpaperDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD9C2225857500A3DB3E /* WWWallpaperDetailController.m */; };
+		4A02CDA02225872300A3DB3E /* WWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02CD9F2225872300A3DB3E /* WWPhotoModel.m */; };
+		4A4F892222266F4000996FE6 /* WWEntrancePhysicsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F892122266F4000996FE6 /* WWEntrancePhysicsAnimation.m */; };
+		EAFDD0038744736054E16384 /* libPods-Homework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F916B30F2FAEC0BA6555611B /* libPods-Homework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0194042015A2CB984A8D1E70 /* Pods-Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.release.xcconfig"; path = "Target Support Files/Pods-Homework/Pods-Homework.release.xcconfig"; sourceTree = "<group>"; };
+		0837CCB05340C13FDE63588E /* Pods-Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.debug.xcconfig"; path = "Target Support Files/Pods-Homework/Pods-Homework.debug.xcconfig"; sourceTree = "<group>"; };
+		4A02CD612224FE5000A3DB3E /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02CD642224FE5000A3DB3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A02CD652224FE5000A3DB3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A02CD672224FE5000A3DB3E /* WWWallpaperListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperListController.h; sourceTree = "<group>"; };
+		4A02CD682224FE5000A3DB3E /* WWWallpaperListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperListController.m; sourceTree = "<group>"; };
+		4A02CD6D2224FE5400A3DB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A02CD702224FE5400A3DB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A02CD722224FE5400A3DB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A02CD732224FE5400A3DB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A02CD7B22251AE200A3DB3E /* WWWallpaperItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperItemModel.h; sourceTree = "<group>"; };
+		4A02CD7C22251AE200A3DB3E /* WWWallpaperItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperItemModel.m; sourceTree = "<group>"; };
+		4A02CD7E2225207700A3DB3E /* WWRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWRequest.h; sourceTree = "<group>"; };
+		4A02CD7F2225207700A3DB3E /* WWRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWRequest.m; sourceTree = "<group>"; };
+		4A02CD88222533F500A3DB3E /* WWWallpaperCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperCollectionView.h; sourceTree = "<group>"; };
+		4A02CD89222533F500A3DB3E /* WWWallpaperCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperCollectionView.m; sourceTree = "<group>"; };
+		4A02CD8B222539CD00A3DB3E /* WWVerticalFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWVerticalFlowLayout.h; sourceTree = "<group>"; };
+		4A02CD8C222539CD00A3DB3E /* WWVerticalFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWVerticalFlowLayout.m; sourceTree = "<group>"; };
+		4A02CD8E22254E0300A3DB3E /* WWWallpaperCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperCell.h; sourceTree = "<group>"; };
+		4A02CD8F22254E0300A3DB3E /* WWWallpaperCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperCell.m; sourceTree = "<group>"; };
+		4A02CD932225621F00A3DB3E /* UIView+WWHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WWHud.h"; sourceTree = "<group>"; };
+		4A02CD942225621F00A3DB3E /* UIView+WWHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WWHud.m"; sourceTree = "<group>"; };
+		4A02CD962225796500A3DB3E /* WWWallpaperDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperDataService.h; sourceTree = "<group>"; };
+		4A02CD972225796500A3DB3E /* WWWallpaperDataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperDataService.m; sourceTree = "<group>"; };
+		4A02CD9B2225857500A3DB3E /* WWWallpaperDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWallpaperDetailController.h; sourceTree = "<group>"; };
+		4A02CD9C2225857500A3DB3E /* WWWallpaperDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWallpaperDetailController.m; sourceTree = "<group>"; };
+		4A02CD9E2225872300A3DB3E /* WWPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWPhotoModel.h; sourceTree = "<group>"; };
+		4A02CD9F2225872300A3DB3E /* WWPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWPhotoModel.m; sourceTree = "<group>"; };
+		4A4F892022266F4000996FE6 /* WWEntrancePhysicsAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWEntrancePhysicsAnimation.h; sourceTree = "<group>"; };
+		4A4F892122266F4000996FE6 /* WWEntrancePhysicsAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWEntrancePhysicsAnimation.m; sourceTree = "<group>"; };
+		F916B30F2FAEC0BA6555611B /* libPods-Homework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Homework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A02CD5E2224FE5000A3DB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFDD0038744736054E16384 /* libPods-Homework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A02CD582224FE5000A3DB3E = {
+			isa = PBXGroup;
+			children = (
+				4A02CD632224FE5000A3DB3E /* Homework */,
+				4A02CD622224FE5000A3DB3E /* Products */,
+				7918046E1F196298D0159680 /* Pods */,
+				6EE79898045A3B602AC230D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A02CD622224FE5000A3DB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD612224FE5000A3DB3E /* Homework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A02CD632224FE5000A3DB3E /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD92222561F500A3DB3E /* Util */,
+				4A02CD7A22251A8300A3DB3E /* Model */,
+				4A02CD872225339100A3DB3E /* UIView */,
+				4A02CD912225605700A3DB3E /* Controller */,
+				4A02CD642224FE5000A3DB3E /* AppDelegate.h */,
+				4A02CD652224FE5000A3DB3E /* AppDelegate.m */,
+				4A02CD6D2224FE5400A3DB3E /* Assets.xcassets */,
+				4A02CD6F2224FE5400A3DB3E /* LaunchScreen.storyboard */,
+				4A02CD722224FE5400A3DB3E /* Info.plist */,
+				4A02CD732224FE5400A3DB3E /* main.m */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		4A02CD7A22251A8300A3DB3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD7B22251AE200A3DB3E /* WWWallpaperItemModel.h */,
+				4A02CD7C22251AE200A3DB3E /* WWWallpaperItemModel.m */,
+				4A02CD9E2225872300A3DB3E /* WWPhotoModel.h */,
+				4A02CD9F2225872300A3DB3E /* WWPhotoModel.m */,
+				4A02CD962225796500A3DB3E /* WWWallpaperDataService.h */,
+				4A02CD972225796500A3DB3E /* WWWallpaperDataService.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A02CD872225339100A3DB3E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD88222533F500A3DB3E /* WWWallpaperCollectionView.h */,
+				4A02CD89222533F500A3DB3E /* WWWallpaperCollectionView.m */,
+				4A02CD8B222539CD00A3DB3E /* WWVerticalFlowLayout.h */,
+				4A02CD8C222539CD00A3DB3E /* WWVerticalFlowLayout.m */,
+				4A02CD8E22254E0300A3DB3E /* WWWallpaperCell.h */,
+				4A02CD8F22254E0300A3DB3E /* WWWallpaperCell.m */,
+				4A4F892022266F4000996FE6 /* WWEntrancePhysicsAnimation.h */,
+				4A4F892122266F4000996FE6 /* WWEntrancePhysicsAnimation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		4A02CD912225605700A3DB3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD672224FE5000A3DB3E /* WWWallpaperListController.h */,
+				4A02CD682224FE5000A3DB3E /* WWWallpaperListController.m */,
+				4A02CD9B2225857500A3DB3E /* WWWallpaperDetailController.h */,
+				4A02CD9C2225857500A3DB3E /* WWWallpaperDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A02CD92222561F500A3DB3E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4A02CD7E2225207700A3DB3E /* WWRequest.h */,
+				4A02CD7F2225207700A3DB3E /* WWRequest.m */,
+				4A02CD932225621F00A3DB3E /* UIView+WWHud.h */,
+				4A02CD942225621F00A3DB3E /* UIView+WWHud.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6EE79898045A3B602AC230D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F916B30F2FAEC0BA6555611B /* libPods-Homework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7918046E1F196298D0159680 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0837CCB05340C13FDE63588E /* Pods-Homework.debug.xcconfig */,
+				0194042015A2CB984A8D1E70 /* Pods-Homework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A02CD602224FE5000A3DB3E /* Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A02CD772224FE5400A3DB3E /* Build configuration list for PBXNativeTarget "Homework" */;
+			buildPhases = (
+				CD4B4FE2E80E4973E2A7958F /* [CP] Check Pods Manifest.lock */,
+				4A02CD5D2224FE5000A3DB3E /* Sources */,
+				4A02CD5E2224FE5000A3DB3E /* Frameworks */,
+				4A02CD5F2224FE5000A3DB3E /* Resources */,
+				DCC9633BF97DB857EA0A9456 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework;
+			productName = Homework;
+			productReference = 4A02CD612224FE5000A3DB3E /* Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A02CD592224FE5000A3DB3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王威";
+				TargetAttributes = {
+					4A02CD602224FE5000A3DB3E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A02CD5C2224FE5000A3DB3E /* Build configuration list for PBXProject "Homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A02CD582224FE5000A3DB3E;
+			productRefGroup = 4A02CD622224FE5000A3DB3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A02CD602224FE5000A3DB3E /* Homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A02CD5F2224FE5000A3DB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02CD712224FE5400A3DB3E /* LaunchScreen.storyboard in Resources */,
+				4A02CD6E2224FE5400A3DB3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD4B4FE2E80E4973E2A7958F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC9633BF97DB857EA0A9456 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework/Pods-Homework-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD/JGProgressHUD.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JGProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homework/Pods-Homework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A02CD5D2224FE5000A3DB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02CD9D2225857500A3DB3E /* WWWallpaperDetailController.m in Sources */,
+				4A4F892222266F4000996FE6 /* WWEntrancePhysicsAnimation.m in Sources */,
+				4A02CD982225796500A3DB3E /* WWWallpaperDataService.m in Sources */,
+				4A02CDA02225872300A3DB3E /* WWPhotoModel.m in Sources */,
+				4A02CD692224FE5000A3DB3E /* WWWallpaperListController.m in Sources */,
+				4A02CD7D22251AE200A3DB3E /* WWWallpaperItemModel.m in Sources */,
+				4A02CD9022254E0300A3DB3E /* WWWallpaperCell.m in Sources */,
+				4A02CD802225207700A3DB3E /* WWRequest.m in Sources */,
+				4A02CD952225621F00A3DB3E /* UIView+WWHud.m in Sources */,
+				4A02CD742224FE5400A3DB3E /* main.m in Sources */,
+				4A02CD662224FE5000A3DB3E /* AppDelegate.m in Sources */,
+				4A02CD8D222539CD00A3DB3E /* WWVerticalFlowLayout.m in Sources */,
+				4A02CD8A222533F500A3DB3E /* WWWallpaperCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A02CD6F2224FE5400A3DB3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A02CD702224FE5400A3DB3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A02CD752224FE5400A3DB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A02CD762224FE5400A3DB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A02CD782224FE5400A3DB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0837CCB05340C13FDE63588E /* Pods-Homework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GLV6LDA4Q;
+				INFOPLIST_FILE = Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WW.Homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A02CD792224FE5400A3DB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0194042015A2CB984A8D1E70 /* Pods-Homework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GLV6LDA4Q;
+				INFOPLIST_FILE = Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WW.Homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A02CD5C2224FE5000A3DB3E /* Build configuration list for PBXProject "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A02CD752224FE5400A3DB3E /* Debug */,
+				4A02CD762224FE5400A3DB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A02CD772224FE5400A3DB3E /* Build configuration list for PBXNativeTarget "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A02CD782224FE5400A3DB3E /* Debug */,
+				4A02CD792224FE5400A3DB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A02CD592224FE5000A3DB3E /* Project object */;
+}
